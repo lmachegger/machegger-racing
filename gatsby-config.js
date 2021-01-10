@@ -41,18 +41,18 @@ module.exports = {
         head: true,
       }
     },
-    // {
-    //   resolve: `gatsby-plugin-manifest`,
-    //   options: {
-    //     name: `Delog GatbsyJS Starter`,
-    //     short_name: `machegger-racing`,
-    //     start_url: `/`,
-    //     background_color: `#fff`,
-    //     theme_color: `#381696`,
-    //     display: `standalone`,
-    //     icon: "src/images/icon.png",
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `machegger-racing Starter`,
+        short_name: `machegger-racing`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#381696`,
+        display: `standalone`,
+        icon: "src/images/icon.png",
+      },
+    },
     `gatsby-plugin-sass`, 
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
